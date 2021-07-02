@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    background:#2c3e50;
+    width:400px;
+    height:200px;
+    /* border:1px solid red; */
+    border-radius: 15px;
+    margin:50px auto;
+    position:relative;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+
+}
+
+
+.cir-1,.cir-2,.cir-3{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+  
+
+}
+.cir-1{
+    background-color:#c0392b;
+    position: absolute;
+    top:8%;
+    left:8%;
+}
+.cir-2{
+    background-color:#f39c12;
+    position: absolute;
+    top:8%;
+    left:15%;
+}
+.cir-3{
+    background-color:#27ae60;
+    position: absolute;
+    top:8%;
+    left:22%;
+}
+.blue-cir{
+    position: absolute;
+    top:35%;
+    left:8%;
+}
+.blue{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background-color:#2e86de;
+    margin-bottom: 20px;
+    display: block;
+    
+}
+
+.line{
+    font-size: 15px;
+    width:100%;
+    /* border:1px solid red; */
+    position: absolute;
+    top:35%;
+    left:20%;
+    color:white;
+    
+    
+}
+.line span{
+    color:#c0392b;
+
+}
+.line h3{
+    background-color:#f39c12;
+    color:black;
+    margin:0 1px;
+    padding:1px;
+}
+.line-one{
+  
+    margin-bottom:10px;
+}
+.line-two{
+   
+    margin-bottom:10px;
+}
+
+.line-one h3,p{
+    display:inline;
+}
+.line-two h3,p{
+    display:inline;
+}
+.line-three h3,p{
+    display:inline;
+}
